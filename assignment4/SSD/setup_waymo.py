@@ -3,6 +3,7 @@ import zipfile
 
 zip_url = "https://piazza.com/class/k53ssppxkwb5yy?cid=236"
 
+
 if __name__ == "__main__":
     dataset_path = pathlib.Path("datasets", "waymo")
     if not dataset_path.parent.is_dir():
